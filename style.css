@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.topnav a:hover {
+    color: #ff726f;
+  }
+
+
+section{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    color: black;
+}
+
+.Name{
+    background-color: #ff726f;
+    height: 100vh;
+
+}
+
+.About{
+    background-color: yellow;
+}
+
+.Projects{
+    background-color: green;
+}
+
+.Contact{
+    background-color: blue;
+}
+
+footer{
+    
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+
+}
+
+html{
+    scroll-behavior: smooth;;
+  }
