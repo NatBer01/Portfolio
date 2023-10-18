@@ -1,14 +1,18 @@
+html,
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .topnav {
 
+    position: fixed;
     display: flex;
     justify-content: right;
     overflow: hidden;
     background-color: black;
+    width: 100%;
   }
   
 .topnav a{
@@ -26,25 +30,38 @@ body{
 section{
     margin: auto;
     text-align: center;
-    padding: 2rem;
     color: black;
+    font-size: 30px;
+}
+
+section h1{
+    margin: 0;
 }
 
 .Name{
-    background-color: #ff726f;
     height: 100vh;
+    background-color: #ff726f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .About{
+    padding-top: 120px;
+    height: 100vh;
     background-color: yellow;
 }
 
 .Projects{
+    padding-top: 120px;
+    height: 100vh;
     background-color: green;
 }
 
 .Contact{
+    padding-top: 120px;
+    height: 100vh;
     background-color: blue;
 }
 
